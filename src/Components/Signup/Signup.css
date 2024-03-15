@@ -1,0 +1,102 @@
+.signupParentDiv {
+  border: 1px solid black;
+  width: max-content;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 6px;
+}
+
+.signupParentDiv .input {
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  outline-color: transparent;
+}
+
+.signupParentDiv button {
+  width: 100%;
+  height: 48px;
+  /* border-color: transparent; */
+  background-color: #002f34;
+  color: whitesmoke;
+  font-weight: 900;
+}
+
+.signupParentDiv button:hover {
+  background-color: white;
+  color: #002f34;
+  border: 2px solid #002f34;
+}
+
+.signupParentDiv a {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.olxImage {
+  margin-left: 10px;
+}
+
+.error {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

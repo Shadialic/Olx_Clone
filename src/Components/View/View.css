@@ -1,0 +1,93 @@
+.viewParentDiv {
+  padding-top: 6em;
+  display: flex;
+}
+
+.viewParentDiv .imageShowDiv {
+  padding: 16px;
+  width: 70vw;
+}
+
+.viewParentDiv .imageShowDiv img {
+  width: 55vw;
+  height: 70vh;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.proImage:hover {
+  transform: scale(1.01);
+}
+button:hover{
+  transform: scale(1.05);
+}
+
+.viewParentDiv .rightSection {
+  padding: 16px;
+  margin-top: 3em;
+  width: 30vw;
+}
+
+.viewParentDiv .rightSection .productDetails :first-child {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #002f34;
+  font-size: 34px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.viewParentDiv .rightSection .productDetails {
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 1em;
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.viewParentDiv .rightSection .contactDetails {
+  border: 1px solid black;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.viewParentDiv .rightSection .contactDetails :first-child {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #002f34;
+  font-weight: 400;
+  padding: 0;
+}
+
+.button {
+  height: 5%;
+  width: 100px;
+  margin: 5px;
+  display: inline;
+
+}
+
+/* CSS */
+.button-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  margin-left: 10px;
+
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-12:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
